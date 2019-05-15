@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master1.master.cs" Inherits="blogWeb.Models.Master1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="blog.css">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="margin-top: 1.5%" >
+            <p class="text-blog">Blog</p>
+            
+            <!-- <p class="text-labelUsuario" style="margin-left:8%">User:</p> -->
+            <asp:Button ID="btnUser" runat="server" Text="" CssClass="btn-user"/>
+        
+        
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
