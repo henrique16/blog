@@ -101,7 +101,7 @@ namespace blogWeb.Home
 
         protected void LimpaHiddenFields()
         {
-            Mensagens.Value = "LEGAL";
+            Mensagens.Value = "";
             Result.Value = "";
             Objeto.Value = "";
         }
