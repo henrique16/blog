@@ -14,6 +14,6 @@ namespace blogServico.Interface
         UsuarioModel ObterPorKeyString(string pKey);
         ValidatorModel Login(UsuarioModel pModel);
 
-        int UpdateSenha(string pKey, string pSenha);
+        bool UpdateSenha(string pKey, string pSenha);
     }
 }

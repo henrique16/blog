@@ -88,8 +88,7 @@ namespace blogDAO.Repository
             catch (Exception e)
             {
                 Console.WriteLine($"{e}");
-                return 3;
-                return 3;
+                return false;
             }
             finally { }
         }

@@ -59,7 +59,7 @@ namespace blogServico.Service
             throw new NotImplementedException();
         }
 
-        public int UpdateSenha(string pKey, string pSenha)
+        public bool UpdateSenha(string pKey, string pSenha)
         {
             using (_repo = new UsuarioRepository())
             {
